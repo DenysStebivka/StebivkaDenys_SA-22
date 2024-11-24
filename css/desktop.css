@@ -1,0 +1,147 @@
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.contacts-link {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.current::after {
+  display: block;
+}
+/*section 1*/
+.intro {
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .intro {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office@2x.jpg);
+  }
+}
+
+.intro-title {
+  margin-bottom: 48px;
+}
+/*section2*/
+
+.features {
+  padding: 120px 0;
+}
+
+.features-list {
+}
+
+.features-item {
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
+
+.features-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-align: start;
+}
+
+.features-item-info {
+  font-weight: 400;
+}
+
+.features-img {
+  display: flex;
+}
+
+/*section 3*/
+
+.work {
+  display: block;
+}
+
+/*section4*/
+.team {
+  padding: 120px 0;
+}
+.team-container {
+  max-width: 1158px;
+}
+
+.card-set {
+  gap: 24px;
+}
+
+/*section5*/
+.customers {
+  width: 1122px;
+}
+
+.customer-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customer-list {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/*footer*/
+.footer-container {
+  max-width: 1158px;
+  gap: unset;
+}
+
+.footer-container-logo {
+  margin-right: 120px;
+  margin-bottom: 0;
+}
+
+.footer-social-media {
+  margin-right: 80px;
+  min-width: 208px;
+}
+
+/*portfolio*/
+.portfolio-container {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  margin-bottom: 72px;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-info {
+  flex-basis: auto;
+}
